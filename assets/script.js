@@ -1,4 +1,4 @@
-import { books } from "./module/script.js";
+import { books } from "../module/script.js";
 //console.log(books[0])
 
 const data = books.map((_, i) => `${_}: ${i + 1}`);
